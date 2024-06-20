@@ -3,9 +3,9 @@
 from __future__ import absolute_import
 from __future__ import print_function
 
-from tensorflow.python.keras.layers import (Input, concatenate, Conv2D, MaxPooling2D, AveragePooling2D,
+from keras.layers import (Input, concatenate, Conv2D, MaxPooling2D, AveragePooling2D,
                                             Conv2DTranspose, UpSampling2D, average)
-from tensorflow.python.keras.models import Model
+from keras.models import Model
 
 
 def DeepModel(size_set=800):

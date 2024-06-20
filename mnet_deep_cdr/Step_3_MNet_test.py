@@ -12,7 +12,7 @@ from PIL import Image
 from pkg_resources import resource_filename
 from skimage.measure import label, regionprops
 from skimage.transform import rotate, resize
-from tensorflow.python.keras.preprocessing import image
+from keras.preprocessing import image
 
 from mnet_deep_cdr import Model_DiscSeg as DiscModel, Model_MNet as MNetModel
 from mnet_deep_cdr.mnet_utils import pro_process, BW_img, disc_crop, mk_dir, files_with_ext
